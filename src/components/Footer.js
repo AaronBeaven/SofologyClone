@@ -1,14 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import stars from './images/stars.jpeg'
+import socialMediaLink from './images/socialMediaLink.png'
 
 export default function Footer() {
     return (
-        <div>
+        <div className="footerContainer">
             <div className="star-container">
-                <h2>Excellent</h2>
+                <h3>Excellent</h3>
                 <img className="star-image" src={stars}/>
-                <h2>Trustpilot</h2>
+                <h3>Trustpilot</h3>
             </div>
             <footer className="footer">
                 
@@ -42,6 +43,7 @@ export default function Footer() {
                 </div>
                 <div className="socialMedia makeMeBlack">
                     <h3>Follow Us</h3>
+                    <img id="socialMediaLink" src={socialMediaLink}/>
                 </div>
 
 

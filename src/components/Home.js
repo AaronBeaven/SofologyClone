@@ -1,5 +1,8 @@
 import React from 'react'
 import one from './images/stars.jpeg'
+import sofasizer from './images/sofaSizer.png'
+import charity from './images/charitys.png'
+import Sofogical from './images/Sofogical.png'
 
 
 
@@ -12,59 +15,59 @@ export default function Home() {
 
             <li >
                 <img id="Navlogos" src="https://images.sofology.co.uk/q_70,fl_lossy,f_auto/v1523621152/orderdirect-wht_swia2i.png"></img>
-                <p id="Navlogos"> 
+                <p id="Navlogostxt"> 
                 Order Direct
                 </p>
             </li>
             <li>
             <img id="Navlogos" src="https://images.sofology.co.uk/q_70,fl_lossy,f_auto/v1523621445/pin-wht_vuyia7.png"></img>
-                <p id="Navlogos">
+                <p id="Navlogostxt">
                 Find a store
                 </p>
             </li>
             <img id="NavlogosPause" src="https://images.sofology.co.uk/q_70,fl_lossy,f_auto/v1523621151/line-wht_uxkjoa.png"></img>
             <li >
             <img id="Navlogos" src="https://images.sofology.co.uk/q_70,fl_lossy,f_auto/v1523621152/fabric-wht_js1jbz.png"></img>
-            <p id="Navlogos">
+            <p id="Navlogostxt">
                 Fabric
                 </p>
             </li>
 
             <li >
             <img id="Navlogos" src="https://images.sofology.co.uk/q_70,fl_lossy,f_auto/v1523621152/leather-wht_t49e1k.png"></img>
-            <p id="Navlogos"> 
+            <p id="Navlogostxt"> 
                 Leather
                 </p>
             </li>
             <li >
             <img id="Navlogos" src="https://images.sofology.co.uk/q_70,fl_lossy,f_auto/v1523621152/corner-wht_xt8gh4.png"></img>
-            <p id="Navlogos">
+            <p id="Navlogostxt">
 
                 Corners
                 </p>
             </li>
             <li >
             <img id="Navlogos" src="https://images.sofology.co.uk/q_70,fl_lossy,f_auto/v1523621152/recliners-wht_sdb6b0.png"></img>
-            <p id="Navlogos">
+            <p id="Navlogostxt">
                 Recliners
                 </p>
             </li>
             <li >
             <img id="Navlogos" src="https://images.sofology.co.uk/q_70,fl_lossy,f_auto/v1523621152/sofabeds-wht_j91ptr.png"></img>
-            <p id="Navlogos">
+            <p id="Navlogostxt">
                 Sofa beds
                 </p>
             </li>
             <li >
             <img id="Navlogos" src="https://images.sofology.co.uk/q_70,fl_lossy,f_auto/v1576760925/sofasizer_vsdam1.png"></img>
-            <p id="Navlogos">
+            <p id="Navlogostxt">
                 Sofasizer
                 </p>
             </li>
             <img id="NavlogosPause" src="https://images.sofology.co.uk/q_70,fl_lossy,f_auto/v1523621151/line-wht_uxkjoa.png"></img>
             <li >
             <img id="Navlogos" src="https://images.sofology.co.uk/q_70,fl_lossy,f_auto/v1523621152/productsupport-wht_vaofdx.png"></img>
-                <p id="Navlogos">
+                <p id="Navlogostxt">
                 Customer Service
                 </p>
             </li>
@@ -84,9 +87,9 @@ export default function Home() {
         </div>
         <div className="mainBannerHome">
 
-            <h2 id="exclusiveLeather"> Exclusive leather <br></br>designs</h2>
             <div className="mainBannerHomeInfo">
 
+            <h2 id="exclusiveLeather"> Exclusive leather <br></br>designs</h2>
             <p className="bannerInfo">Colour isn’t just for fabric. Discover our leather styles in <br></br> every shade from soft and subtle neutrals to bright, bold <br></br> statement sofas.</p>
             <button className="bannerButton"> SHOP LEATHER</button>
             <button className="bannerButton">SHOP MIMI</button>
@@ -101,12 +104,13 @@ export default function Home() {
 
             </div>
                 <div className="shopSofastxt">
-                <p id="fabric">Fabric Sofas</p>
-                <p >Leather Sofas</p>
-                <p >Corner Sofas</p>
+                <p id="typeOfSofas">Fabric Sofas</p>
+                <p id="typeOfSofas">Leather Sofas</p>
+                <p  id="typeOfSofas">Corner Sofas</p>
                 </div>
 
 
+                <img id="sofaSizerImg" src={sofasizer}/>
                 <h2 className="shopSofas"> New in</h2>
             <div className="subContainer">
 
@@ -128,7 +132,7 @@ export default function Home() {
             <h2 id="Inyourhome">@sofology | our sofas in your homes</h2>
 
 
-            <div className="subContainer">
+            <div className="inYourHouse">
 
 
 
@@ -141,8 +145,67 @@ export default function Home() {
 
 
             </div>
-    
+            
+            <div className="socialMore">
+            <button className="viewMore"> VIEW MORE </button>
+            <button className="viewMore">ADD A PHOTO</button>
+            </div>
 
+            <div>
+
+                    <img id="sofaSizerImg" src={Sofogical}/>
+            </div>
+            <div className="inYourHouse">
+
+
+            <img className="blogs" src="https://images.sofology.co.uk/q_70,fl_lossy,f_auto/v1582108387/umbraco%20website/sofologicalcards-parisian.jpg.jpg" ></img>
+    
+            <img className="blogs" src="https://images.sofology.co.uk/q_70,fl_lossy,f_auto/v1579778889/umbraco%20website/sofologicalcards-pantoneblue.jpg.jpg" 
+            ></img>
+        
+            <img className="blogs" src="https://images.sofology.co.uk/q_70,fl_lossy,f_auto/v1577184369/umbraco%20website/sofological-newlife.jpg.jpg" 
+            ></img>
+            
+            </div>
+            <button className="BloggsButton">VIEW BLOG</button>
+
+          
+            <div className="sofaSizer" >
+
+                    <img id="sofaSizerImg" src={charity}/>
+                    <button className="shopTheCollection">Shop The Collection</button>
+            </div>
+
+
+            <div className="ImgSofaContainer">
+
+
+
+
+
+                <img className="ImgSofa" src="https://images.sofology.co.uk/q_70,fl_lossy,f_auto/v1575466212/ss-gabrielle_velfh0.jpg" title=""></img>
+                <img className="ImgSofa" src="https://images.sofology.co.uk/q_70,fl_lossy,f_auto/v1575468256/ss-odessy_uovaii.jpg" title=""></img>
+                <img className="ImgSofa" src="https://images.sofology.co.uk/q_70,fl_lossy,f_auto/v1575468260/ss-persia_vddkbh.jpg" title=""></img>
+                <img className="ImgSofa" src="https://images.sofology.co.uk/q_70,fl_lossy,f_auto/v1575466212/ss-palm-2_vkbwmw.jpg" title=""></img>
+                <img className="ImgSofa" src="https://images.sofology.co.uk/q_70,fl_lossy,f_auto/v1576160097/ss-perle_galddb.jpg" title=""></img>
+                <img className="ImgSofa" src="https://images.sofology.co.uk/q_70,fl_lossy,f_auto/v1576160096/ss-emperor_jybehs.jpg" title=""></img>
+               
+
+
+
+            </div>
+            <div id="ImgSofaText">
+                <p id="ImgSofaText">The Gabrielle</p>
+                <p id="ImgSofaText">The Odessey</p>
+                <p id="ImgSofaText">The Persia</p>
+                <p id="ImgSofaText">The Palm</p>
+                <p id="ImgSofaText">The Perle</p>
+                <p id="ImgSofaText">The Emporer</p>
+            </div>
+            <div>
+                <p id="bottomText"> As part of their PlanTree initiative, Sofology Limited have partnered with the Woodland Trust (registered charity number England and Wales: No: 294344, Scotland No. SC038885) to fund the planting of trees in the UK.&nbsp; Sofology will donate £1.25 in respect of each completed and fulfilled order for Sofology furniture and accessories* that is made between 16th March 2020 and 9th March 2023 (inclusive).</p>
+            </div>
+ 
 
         </div>
 
