@@ -56,6 +56,7 @@ header{
 .CallToOrder{
   background-color: #00adef;
   color: azure;
+text-decoration: none;
   border-radius: 5px;
   width: 140px;
   line-height: 2em;
@@ -114,8 +115,14 @@ header{
   /* padding: 20px; */
   /* background: rgba(0, 0, 0, 0.082); */
   width: 100%;
+  margin-bottom: 50px;
+  height: 300px;
   /* margin: 0 10%; */
   
+}
+#storeLocator{
+  font-weight: 1;
+  font-size: 2.5rem;
 }
 
 .bannerForm{
@@ -138,9 +145,19 @@ header{
 .inputSearch{
   font-size: 33px;
 }
+.enviroment{
+  display: flex;
+  margin-right: 40px;
+}
 .storeInfo{
-  margin: 0 10%;
+  /* margin: 0 10%; */
   background-color: #fff;
+  margin-bottom: 2px;
+  margin-left: 10px;
+  /* padding-bottom: 35px!important; */
+  margin-right: 40px;
+  border-bottom: 1px solid #e5e5e5;
+
 
 }
 .storeDetials{
@@ -214,7 +231,7 @@ header{
 
 .star-container {
   display: flex;
-  width: 100%;
+
   background-color: #000;
   color: azure;
   justify-content: center;
@@ -236,13 +253,14 @@ height: 6px;
 h2 {
   margin: 0;
   padding-right: 1rem;
-  padding-left: 1rem;
+  margin-top: 15px;
+font-weight: 500;
 }
 .footerText{
   background-color: #000;
   color: #fff;
   /* margin-bottom: 30px; */
-  width: 100%;
+
   padding: 10px;
 }
 .makeMeBlack{
@@ -252,6 +270,20 @@ h2 {
   margin: 0 10%;
   /* margin-bottom: 5px; */
 
+}
+#findaStoreMap{
+  height:  650px;
+/* margin-right: 40px; */
+padding-left: 20px;
+/* margin-left: 400px; */
+/* margin-top: 40px; */
+float: right;
+
+
+}
+
+.findastoremapinfo{
+  margin-left: 115px;
 }
 .subNav{
   display: flex;
@@ -325,7 +357,7 @@ font-weight: 300;
 .bannerInfo{
   display: flex;
   justify-content: flex-end;
-  margin-top: 15em;
+
   line-height: 38px;
 
 }
@@ -357,6 +389,23 @@ transition: all .3s linear;
   margin-bottom: 25px;
 
 }
+.shopSofasText{
+  background-color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin: 0%;
+  font-family: FS-Emeric-Light,Helvetica,sans-serif;
+  font-size: 17px;
+  line-height: 38px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+#stayinTouchImg{
+  height: 400px;
+  width: 100%;
+}
 
 .shopSofastxt{
   display: flex;
@@ -374,15 +423,17 @@ transition: all .3s linear;
 }
 .newIn{
   height: 250px;
-  /* color: #fff; */
-  /* background-color: rgba(100, 100, 100, 0.064); */
 
-
-
-
-  /* margin: -5%; */
   justify-content: space-evenly;
   
+}
+.phoneNumber{
+  color: #de007b;
+  transition: all .3s linear;
+  margin-bottom: 1px;
+}
+.phoneNumber:hover{
+  color: lightskyblue;
 }
 .newInSofas{
   display: flex;
@@ -436,9 +487,12 @@ transition: all .3s linear;
 
 #exclusiveLeather{
   text-align: center;
-  justify-content:last baseline3 ;
+  display: flex;
+  justify-content: flex-end;
+padding-top: 150px;
   /* margin-top: 15em; */
   margin-top: 30px;
+padding-right: 30;
 }
  .inYourHouse{
   display: flex;
@@ -449,6 +503,7 @@ transition: all .3s linear;
 .mainBannerHomeInfo{
   /* margin-top: 40px; */
   text-align: center;
+  margin-right: 120px;
   /* justify-content: right; */
 }
 .viewMore{
@@ -574,4 +629,18 @@ margin-left: 45%;
 }
 .footerContainer{
 background-color: black;
+}
+.enviromentText{
+   margin-left: 20px ;
+padding-right: 5px;
+
+
+}
+#enviromentLogos{
+  height: 25px; 
+  font-size: 16px; 
+   margin-top: 10px; 
+  margin-left: 25px;
+  margin-right: 20px;
+  font-weight: 150;
 }

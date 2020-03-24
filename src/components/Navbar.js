@@ -26,7 +26,7 @@ function Navbar() {
             
             <Link className="Link" to='/'>Sofas</Link>
                 <Link className="Link" to='/findstore'>Find a Store</Link>
-                <Link className="Link" to='/findstore'>Responsibility</Link>
+                <Link className="Link" to='/responsibility'>Responsibility</Link>
                 <Link className="Link" to='/findstore'>More</Link>
                 <Link className="CallToOrder" to='/findstore'>Call To Order</Link>
                 <Link className="Link" to='/findstore'>Clearance</Link>
