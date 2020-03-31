@@ -28,8 +28,8 @@ function Navbar() {
                 <Link className="Link" to='/findstore'>Find a Store</Link>
                 <Link className="Link" to='/responsibility'>Responsibility</Link>
                 <Link className="Link" to='/findstore'>More</Link>
-                <Link className="CallToOrder" to='/findstore'>Call To Order</Link>
-                <Link className="Link" to='/findstore'>Clearance</Link>
+                <Link className="CallToOrder" to='/calltoorder'>Call To Order</Link>
+                <Link className="Link" to='/Clearance'>Clearance</Link>
                 
                 <Link className="Link" to='/findstore'><ion-icon name="search-outline"></ion-icon></Link>
 

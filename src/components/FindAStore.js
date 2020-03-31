@@ -66,6 +66,33 @@ export default function FindAStore() {
           </p>
           <button className="storeDetials"> STORE DETAILS</button>
           </div>
+        {/* <div className="storeInfo">
+          <h2>BRENT SOFOLOGY</h2>
+          <p className="phoneNumber"> t. 034448639031</p>
+          <p> 49 Boucher Road, Belfast,
+            <br></br>
+            BT12 6HR
+          </p>
+          <button className="storeDetials"> STORE DETAILS</button>
+          </div>
+        <div className="storeInfo">
+          <h2>BRENT SOFOLOGY</h2>
+          <p className="phoneNumber"> t. 034448639031</p>
+          <p> 49 Boucher Road, Belfast,
+            <br></br>
+            BT12 6HR
+          </p>
+          <button className="storeDetials"> STORE DETAILS</button>
+          </div>
+        <div className="storeInfo">
+          <h2>BRENT SOFOLOGY</h2>
+          <p className="phoneNumber"> t. 034448639031</p>
+          <p> 49 Boucher Road, Belfast,
+            <br></br>
+            BT12 6HR
+          </p>
+          <button className="storeDetials"> STORE DETAILS</button>
+          </div> */}
 
         </div>
       </body>
